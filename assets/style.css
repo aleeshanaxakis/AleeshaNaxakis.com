@@ -11,9 +11,10 @@ body {
 
 /* Styling for the header section */
 .header {
-    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    size: 200px;
     padding: 20px;
     background-color: #8A307F;
     color: #79A7D3;
@@ -26,13 +27,28 @@ body {
     float: right;
 }
 
-/* Styling for the nav bar */
-.nav {
-    display: inline-block;
+/* Styling for speciality areas information */
+.brand {
+    flex-grow: 1;
+}
+
+.brand h1 {
+    margin: 0;
+}
+
+.brand p {
+    margin: 0;
+    font-size: 14px;
     color: #2F3C7E;
-    margin-top: 200px;
-    position: absolute;
-    margin-left: 25px;
+}
+
+/* Styling for the navigation links */
+.nav {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: #2F3C7E;
+    color: white;
 }
 
 /* Styling for about section */
@@ -48,7 +64,6 @@ body {
 }
 
 .horiseon-image {
-    size: 500px;
-    border: solid;
-    border-radius: 298px;
+    width: 50px;
+    height: 50px;
 }
