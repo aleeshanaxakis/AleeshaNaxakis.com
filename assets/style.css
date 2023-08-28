@@ -1,0 +1,54 @@
+/* Reset box sizing and margins for all elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* Set the background color for the entire body */
+body {
+    background-color:#FBEAEB;
+}
+
+/* Styling for the header section */
+.header {
+    z-index: 10;
+    width: 100%;
+    size: 200px;
+    padding: 20px;
+    background-color: #8A307F;
+    color: #79A7D3;
+    font-family: serif;
+}
+
+/* Floating headshot to right of page */
+.img {
+    position: relative;
+    float: right;
+}
+
+/* Styling for the nav bar */
+.nav {
+    display: inline-block;
+    color: #2F3C7E;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 25px;
+}
+
+/* Styling for about section */
+.about-me {
+    font-family: serif;
+    top: 200px
+}
+
+/* Styling for work section */
+.my-work {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.horiseon-image {
+    size: 500px;
+    border: solid;
+    border-radius: 298px;
+}
