@@ -4,66 +4,185 @@
     padding: 0;
 }
 
+*,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 /* Set the background color for the entire body */
 body {
     background-color:#FBEAEB;
-}
-
-/* Styling for the header section */
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-    background-color: #8A307F;
-    color: #79A7D3;
-    font-family: serif;
-}
-
-/* Floating headshot to right of page */
-.img {
-    position: relative;
-    float: right;
-}
-
-/* Styling for speciality areas information */
-.brand {
-    flex-grow: 1;
-}
-
-.brand h1 {
-    margin: 0;
-}
-
-.brand p {
-    margin: 0;
-    font-size: 14px;
-    color: #2F3C7E;
 }
 
 /* Styling for the navigation links */
 .nav {
     display: flex;
     gap: 20px;
-    padding: 10px;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
     background-color: #2F3C7E;
     color: white;
+    font-family: serif;
+    font-size: 50px;
+}
+
+.button {
+    width: 45%;
+    background-color: #FBEAEB;
+}
+
+.button a {
+    font-size: 30px;
+    font-family: serif;
+    text-decoration: none;
+}
+
+button a::before {
+    color: #2F3C7E;
+}
+
+/* Styling for the header section */
+.header-block {
+    display: flex-inline;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #FCF6F5;
+    flex-grow: 1;
+}
+
+.header {
+    text-align: center;
+    display: flex-inline;
+    flex-direction: row;
+    order: 1;
+    margin-bottom: 0;
+    color: #8A307F;
+    font-family: serif;
+    font-size: 50px
+}
+
+.specialty-areas {
+    text-align: center;
+    display: flex-inline;
+    flex-direction: row;
+    order: 2;
+    margin-top: 0;
+    color: #8A307F;
+    font-family: sans-serif;
+    font-size: 30;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+/* Floating headshot to right of page */
+.headshot {
+    display: flex-inline;
+    flex-direction: row;
+    order: 3;
+    position: relative;
+    float: right;
+    justify-content: space-between;
+}
+
+/* Styling for headers throughout */
+h3 {
+    display: flex-inline;
+    flex-direction: row;
+    font-size: 50px;
+    font-family: serif;
+    color:#2F3C7E
+}
+
+h4 {
+    display: flex-inline;
+    flex-direction: row;
+    font-size: 30px;
+    font-family: serif;
+    color: #8A307F;
 }
 
 /* Styling for about section */
 .about-me {
+    display: flex-inline;
+    flex-direction: row;
     font-family: serif;
     top: 200px
 }
 
+.about-me-p {
+    display: flex-inline;
+    flex-direction: row;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
 /* Styling for work section */
 .my-work {
-    display: inline-block;
+    display: flex-inline;
+    flex-direction: row;
     margin-left: 20px;
 }
 
 #horiseon-image {
-    width: 200px;
-    height: 200px;
+    display: flex-inline;
+    flex-direction: row;
+    width: 1080px;
+    height: 680px;
 }
+
+#css-image {
+    display: flex-inline;
+    flex-direction: row;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+#coming-soon-image {
+    display: flex-inline;
+    flex-direction: row;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.connect {
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.footer {
+    display: flex;
+    font-size: 25px;
+    font-family: serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    body,
+    nav,
+    header,
+    main,
+    about,
+    work,
+    connect,
+    footer,
+    {
+        align-items: centre;
+        justify-content: centre;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0 auto;
+        border-style: solid;
+        border-width: 2px;
+    }
+  }

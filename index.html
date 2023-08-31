@@ -5,76 +5,74 @@
         <title>AleeshaNaxakis.com</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="./assets/style.css">
+        <link rel="stylesheet" href="./assets/reset.css">
+        <link rel="stylesheet" href="./assets/style.css">
     </head>
 
-    <body>
-        <header>
-            <div class="header">
-             <h1>Aleesha Naxakis</h1>
-             <div class="brand">  
-             <p> 
-                Brand | Communications | Web Development
-             </p>
-            </div>
-             <div class="img">
-             <img src="./assets/images/Aleesha-Naxakis-headshot.png" alt="Aleesha Naxakis headshot"/>
-            </div>
-        </header>           
-
+    <body> 
         <nav>
             <div class="nav">
-                <a href="#about-me">About</a>
-                <a href="#my-work">Work</a>
-                <a href="#connect-with-me">Connect</a>
+                <button type="button" class="button"><a href="#about-me">About</a></button>
+                <button type="button" class="button"><a href="#my-work">Work</a></button>
+                <button type="button" class="button"><a href="#connect-with-me">Connect</a></button>
             </div>
         </nav>
+       
+        <header>
+            <div class="header-block" id="header-block">
+             <h1 class="header">Aleesha Naxakis</h1>
+             <h2 class="specialty-areas">Brand | Communications | Web Development</h2>
+             <img src="./assets/images/Aleesha-Naxakis-headshot-final.png" alt="Aleesha Naxakis headshot" class="headshot"/>
+            </div>
+        </header>           
 
     <main>
     <section class="about">
         <div id="about-me" class="about-me">
-            <h2>About Me</h2>
-            <p>
-                I am a communications professional with over six years' experience.  B2C, B2B, internal, and government relations. In 2023 I completed University of Sydney's Coding Boot Camp in collaboration with edX and have since developed a proven track record of architecting, developing, and implementing interactive websites. 
+            <h3>About Me</h3>
+            <p class="about-me-p">
+                I am a communications professional with over six years' experience in B2C and B2B public relations, internal communications, partnerships management, and government relations. I am currently completing University of Sydney's Coding Boot Camp in collaboration with edX and am architecting, developing, and implementing interactive websites. 
             </p>
-            <p>
-                By combining my skills in communication and web development, I am able to provide businesses with . Adept at leveraging SEO strategies and user-centered design principles to engage users and grow web traffic 
+            <p class="about-me-p">
+                By combining my skills in communications and web development, I bring a uniquely holistic approach to PR services. I help businesses increase brand visibility and credibility amongst key audiences and am adept at supporting marketing investment, supporting SEO strategies, and leveraging user-centered design principles to engage users and grow web traffic.
             </p>
         </div>
     </section>
 
     <section class="work">
             <div id="my-work" class="my-work">
-                <h2>My Work</h2>
+                <h3>My Work</h3>
                     <section class="horiseon-website">
-                        <h3>Horiseon Brand Website</h3>
+                        <h4>Horiseon Brand Website</h4>
                         <a href="https://aleeshanaxakis.github.io/Module-1-Challenge/#search-engine-optimization">
-                        <div>
-                        <img  src="./assets/images/digital-marketing-meeting.jpg" alt="four people having a meeting at a boardroom table" id="horiseon-img">
-                        </div>    
+                        <img  src="./assets/images/digital-marketing-meeting.jpg" alt="four people having a meeting at a boardroom table" id="horiseon-image">
                         </a>
                     </section>
                     <section class="css-cheatsheet">
-                        <h3>CSS Snippet Cheatsheet</h3>
-                        <img src="./assets/images/CSS-cheatsheet.png" alt="cheatsheet displaying CSS syntax for flexbox, grid, and more">
+                        <h4>CSS Snippet Cheatsheet</h4>
+                        <img src="./assets/images/CSS-cheatsheet.png" alt="cheatsheet displaying CSS syntax for flexbox, grid, and more" id="css-image">
+                    </section>
+                    <section class="coming-soon">
+                        <h4>Website Coming Soon</h4>
+                        <img src="./assets/images/Coming-Soon-1024x576-1.jpg" alt="coming soon" id="coming-soon-image">
                     </section>
             </div>
     </section>
 
     <section class="connect">
         <div id="connect-with-me" class="connect-with-me">
-                <h2>Connect with Me</h2>
+                <h3>Connect with Me</h3>
             <ul>
-                <li>Email: aleesha-@hotmail.com</li>
+                <a href="mailto:aleesha-@hotmail.com">E-mail</a>
                 <li>Phone: 0403 721 428</li>
-                <li>LinkedIn: Aleesha Naxakis</li>
+                <a href="https://www.linkedin.com/in/aleesha-naxakis-908855136/">LinkedIn</a>
             </ul>
         </div>
     </section>
     </main>
 
     <footer class="footer">
-        <h3>Made with ❤️ by Aleesha</h3>
+        <h5>Made with ❤️ by Aleesha</h5>
     </footer>
 
     </body>
