@@ -23,7 +23,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 This project taught me a lot about advanced CSS such as flexbox, media queries, and CSS variables.
 
 ## Installation
-My portfolio can be viewed via the URL
+My portfolio can be viewed via the URL: https://aleeshanaxakis.github.io/AleeshaNaxakis.com/
 
 ## Usage
 Aleesha Naxakis is a communications professional and aspiring web developer seeking freelance work.
