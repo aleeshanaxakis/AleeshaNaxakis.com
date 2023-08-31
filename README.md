@@ -3,6 +3,8 @@
 ## Description
 I developed a portfolio for myself from scratch to demonstrate my abilities to potential clients.
 
+![Aleesha-Naxakis-portfolio](https://github.com/aleeshanaxakis/AleeshaNaxakis.com/assets/142005319/ebad2d50-4a16-40bd-887f-7c230454b709)
+
 I used the following acceptance criteria:
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -24,7 +26,7 @@ This project taught me a lot about advanced CSS such as flexbox, media queries, 
 My portfolio can be viewed via the URL
 
 ## Usage
-Aleesha Naxakis is a communications professional and aspiring web developer.
+Aleesha Naxakis is a communications professional and aspiring web developer seeking freelance work.
 
 ## Credits
 I leant on support from multiple sources for this project, including:
