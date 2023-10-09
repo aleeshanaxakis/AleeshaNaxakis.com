@@ -134,6 +134,13 @@ h4 {
     height: 680px;
 }
 
+#muscle-mate-image {
+    display: flex-inline;
+    flex-direction: row;
+    width: 1080px;
+    height: 680px;
+}
+
 #css-image {
     display: flex-inline;
     flex-direction: row;
